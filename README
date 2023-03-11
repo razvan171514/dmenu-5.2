@@ -22,3 +22,9 @@ Afterwards enter the following command to build and install dmenu
 Running dmenu
 -------------
 See the man page for details.
+
+Example of usage
+----------------
+1. dmenu_run -p "dmenu:" -h 23
+2. dmenu_run -p "dmenu:" -h 23 -c -bw 1 -l 20 -g 4
+
