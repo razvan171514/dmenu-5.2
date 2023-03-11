@@ -13,8 +13,8 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#005577" },
-	[SchemeSelHighlight] = { "#ffc978", "#005577" },
+	[SchemeSel] = { "#eeeeee", "#6790EB" },
+	[SchemeSelHighlight] = { "#ffc978", "#6790EB" },
 	[SchemeNormHighlight] = { "#ffc978", "#222222" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
@@ -30,3 +30,6 @@ static unsigned int min_lineheight = 8;
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
+
+/* Size of the window border */
+static unsigned int border_width = 0;
